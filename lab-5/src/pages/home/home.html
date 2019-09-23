@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Local Notification
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<form (ngSubmit)="submit()">
+<ion-content padding>
+  <div id="map" style="width: 100%; height:60%;"></div>
+      <ion-label><b>Latitude:</b>{{lat}}</ion-label>
+      <ion-label><b>Latitude:</b>{{long}}</ion-label>
+  <div padding>
+    <button ion-button full round>My Location</button>
+  </div>
+</form>
+
+</ion-content>
